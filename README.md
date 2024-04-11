@@ -1,7 +1,7 @@
 Energy Tracker
 ______________
 
-This is a basic prototype of an energy tracker system that performs CRUD (Create, Read, Update, Delete) operations.
+This is a basic prototype of an energy tracker system that performs CRUD (Create, Read, Update, Delete) operations on the user energy consumption data.
 
 
 
