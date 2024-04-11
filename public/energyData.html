@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Energy Data</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="single-task-form">
+            <h4 style ="margin: 10px 0 20px 10px; font-weight:bolder;">Edit Consumer Details</h4>
+            <div class="form-consumer-id">
+                <label>Consumer ID: </label>
+                <p class="consumer-edit-id"></p>
+            </div>
+            <div class="form-consumer-name">
+                <label for="name">Name</label>
+                <input type ="text" name="name" class="consumer-edit-name"/>
+            </div>
+            <div class="form-consumption-input">
+                <label for="consumption">Consumption</label>
+                <input type ="text" name="consumption" class="consumer-edit-consumption"/>
+            </div>
+            <button type ="submit" class="block btn task-edit-btn">Edit</button>
+            <div class="form-alert"></div>
+        </form>
+        <div class="link-back-div">
+        <a href="index.html" class="btn back-link">Back to Home Page</a>
+        </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="energyData-edit.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Tracker</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <form class="input-form">
+        <h2>Energy Tracker</h2>
+        <div>
+        <div class = "form-name-input">
+            <label for="name">Name</label>
+            <input type ="text" name = "name" placeholder="Enter Consumer's Name" class="consumer-input"/>
+        </div>
+           
+        <div class = "form-consumption-input">
+            <label for ="consumption">Units</label>
+            <input type ="text" name = "consumption" placeholder="Enter your energy consumption" class = "energy-input"/><br><br>
+                </div>
+            <button type ="submit" class ="btn-submit">Submit</button>
+        </div>
+        <div class="form-alert"></div>
+    </form>
+    <section class="energy-display-container">
+        <p class="loading">Loading...</p>
+        <div class="energy-display">
+            <table class = "data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Consumption</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody class = 'data-table-body'>
+                    <!-- Table rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+    <script src="browser-app.js"></script>
+</body>
+</html>

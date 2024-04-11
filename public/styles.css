@@ -1,0 +1,109 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-form {
+    height: 220px;
+    width: 350px;
+    border: 1px solid black;
+    background-color: rgba(0, 187, 255, 0.543);
+}
+
+.input-form:hover {
+    box-shadow: 5px 5px grey;
+}
+
+.form-name-input, .form-consumption-input {
+    margin: 10px;
+}
+
+.consumer-name-input {
+    height: 20px;
+    width: 150px;;
+
+}
+
+.energy-input {
+    height: 20px;
+    width: 250px;
+    margin: 0 10px 0 10px;
+}
+
+.btn-submit {
+    margin: 10px 0 0 10px;
+    height: 20px;
+    width: 70px;
+    background-color: rgba(24, 198, 15, 0.596);
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: rgb(13, 169, 11);
+}
+
+.data-table, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid rgb(25, 235, 221);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.single-row-data:hover {
+    background-color: rgb(212, 200, 200);
+}
+
+
+/*edit page*/
+.single-task-form {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+
+}
+
+.form-consumer-id, .form-consumer-name, .form-consumption-input {
+    display: flex;
+    margin: 10px;
+}
+
+.consumer-edit-name, .consumer-edit-consumption {
+    margin: 0 0 0 10px;
+}
+
+.consumer-edit-id {
+    margin: 0px 0 0 10px;
+    color: red;
+
+    
+}
+
+.task-edit-btn {
+    height: 25px;
+    width: 75px;
+    margin: 10px;
+}
+.link-back-div {
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+}
+
+.back-link {
+    color: white;
+    background-color: rgb(65, 219, 170);
+    margin: 50px 0 0 0px;
+    border: 2px solid black;
+    text-decoration: none;
+}
